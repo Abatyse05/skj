@@ -1,7 +1,5 @@
 League Project
 
-Tento projekt je webová aplikace postavená na frameworku Django, určená pro správu hráčů, týmů, lig a jejich historie.
-
 Funkce
 
 Správa hráčů (jméno, přezdívka, tým, kategorie)
@@ -11,8 +9,6 @@ Historie působení hráčů v týmech
 Vzájemně propojené datové modely
 REST API pomocí [Django Ninja](https://django-ninja.dev/)
 Stylováno pomocí [Bootstrap 5](https://getbootstrap.com/)
-
----
 
 Jak spustit projekt
 
@@ -38,6 +34,7 @@ python manage.py runserver
 
 
 Stránka	Popis
+
 /	              Hlavní stránka
 /players/	      Seznam hráčů
 /teams/	        Seznam týmů
